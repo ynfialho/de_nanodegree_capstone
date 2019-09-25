@@ -100,5 +100,8 @@ venv.bak/
 # mkdocs documentation
 /site
 
+# capstone
+data/
+
 # mypy
 .mypy_cache/
