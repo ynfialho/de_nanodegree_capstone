@@ -11,6 +11,8 @@ This project will bring together criminal facts of data and distinct property in
 ## Choice of technology
 The data set is large enough that the Pandas library has difficulty organizing, but it doesn't need a large Hadoop cluster either. The choice of Spark comes as a wild card when it comes to scalability as well, and can be executed locally with all the core available in the system.
 
+AWS S3 as repository of our data warehouse was chosen for scalability and low cost. Since data is persisted in it, we can use AWS Athena as a query engine or with an implementation of the COPY command for AWS Redshift (taught in the course) we can load the data into this columnar database.
+
 ## Future scenario
 If the data volume is increased 100 times, you can configure a Spark cluster sized exactly for this problem, this cluster configuration could be done in AWS EMR, for example.
 
