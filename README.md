@@ -4,7 +4,9 @@ This project will bring together criminal facts of data and distinct property in
 
 # Requirement
 * Kaggle datasets must be downloaded to a given directory. As a suggestion, that project files are mapped for a better structure as in the image below.
+
 ![project structure](./capstone_dir.png)
+
 
 ## Choice of technology
 The data set is large enough that the Pandas library has difficulty organizing, but it doesn't need a large Hadoop cluster either. The choice of Spark comes as a wild card when it comes to scalability as well, and can be executed locally with all the core available in the system.
